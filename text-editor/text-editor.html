@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/6e6416f0d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<section class="w-[70%] h-[550px] bg-slate-500 rounded mx-auto mt-16 pt-4">
+    <h1 class="text-center font-verdana font-semibold text-2xl text-slate-200 ">My Text Editor</h1>
+
+    <div class="w-[70%] bg-slate-300 h[500px] mx-auto mt-8 p-4 rounded">
+        <div class="flex justify-between items-center border-b border-gray-400 py-3">
+            <div class="space-x-2 lg:space-x-5">
+                <i class="fa-solid fa-b   icon" data-style="font-bold"></i>
+                <i class="fa-solid fa-italic  icon" data-style="italic"></i>
+                <i class="fa-solid fa-underline  icon" data-style="underline"></i>
+            </div>
+            <div class="space-x-4 lg:space-x-10">
+                <i class="fa-solid fa-align-left  icon" data-style="text-left"></i>
+                <i class="fa-solid fa-align-center  icon" data-style="text-center"></i>
+                <i class="fa-solid fa-align-right  icon" data-style="text-right"></i>
+                <i class="fa-solid fa-align-justify  icon" data-style="text-justify"></i>
+            </div>
+            <div class="space-x-0 lg:space-x-4">
+                <input class="w-9 bg-transparent outline-none font-color " type="number" value="17" >
+                <i class="fa-solid fa-font"></i>
+                <input type="color" class=" font-color" >
+            </div>
+        </div>
+        <textarea class="w-full h-[310px] mt-3 rounded outline-none p-1 resize-none font-sans">I want to be a MERN stack developer...</textarea>
+    </div>
+<p class="text-amber-500">@Alone</p>
+</section>
+
+<script src="text-editor.js"></script>
+</body>
+</html>
